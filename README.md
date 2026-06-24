@@ -67,7 +67,7 @@ Build your assets & start the local development server
 
 **Command list**
 
-    git clone https://github.com/andrewdwallo/altric.git
+    git clone https://github.com/aminerekhiss/altric-erp-main
     cd altric
     composer install
     npm install
