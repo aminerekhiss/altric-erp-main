@@ -14,6 +14,8 @@
 
 A Laravel and Filament-powered accounting platform featuring full double-entry accrual accounting, delivering modern automation for professional financial management.
 
+Based on the open-source ALTRIC project (MIT license).
+
 # Getting started
 
 ## Installation
@@ -52,9 +54,7 @@ Build your assets & start the local development server
     npm run build
     npm run dev
 
-**Command list**
 
-    git clone https://github.com/aminerekhiss/altric-erp-main.git
     cd altric
     composer install
     npm install
@@ -171,18 +171,15 @@ their company's currencies as needed.
 
 ## Automatic Translation
 
-The application now supports automatic translation, leveraging machine translation services provided by AWS, as
-facilitated by the [andrewdwallo/transmatic](https://github.com/andrewdwallo/transmatic) package. This integration
-significantly enhances the application's accessibility for a global audience. The application currently offers support
-for several languages, including English, Arabic, German, Spanish, French, Indonesian, Italian, Dutch, Portuguese,
-Turkish, and Chinese, with English as the default language.
+The application supports automatic translation using AWS machine translation services. The application currently
+offers support for several languages, including English, Arabic, German, Spanish, French, Indonesian, Italian, Dutch,
+Portuguese, Turkish, and Chinese, with English as the default language.
 
 ### Configuration & Usage
 
 To utilize this feature for additional languages or custom translations:
 
-1. Follow the documentation provided in the [andrewdwallo/transmatic](https://github.com/andrewdwallo/transmatic)
-   package.
+1. Follow the documentation for the translation integration package.
 2. Configure the package with your preferred translation service credentials.
 3. Run the translation commands as per the package instructions to generate new translations.
 
@@ -247,10 +244,8 @@ Pest, refer to the official documentation: [Pest Documentation](https://pestphp.
 ## Dependencies
 
 - [filamentphp/filament](https://github.com/filamentphp/filament) - A collection of beautiful full-stack components
-- [andrewdwallo/filament-companies](https://github.com/andrewdwallo/filament-companies) - A complete authentication
-  system kit based on companies built for Filament
-- [andrewdwallo/transmatic](https://github.com/andrewdwallo/transmatic) - A package for automatic translation using
-  machine translation services
+- Company authentication integration for Filament
+- Automatic translation integration using machine translation services
 - [akaunting/laravel-money](https://github.com/akaunting/laravel-money) - Currency formatting and conversion package for
   Laravel
 - [squirephp/squire](https://github.com/squirephp/squire) - A library of static Eloquent models for common fixture data

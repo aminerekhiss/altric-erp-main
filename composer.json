@@ -1,6 +1,6 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "andrewdwallo/altric",
+    "name": "aminerekhiss/altric-erp-main",
     "type": "project",
     "description": "The skeleton application for the Laravel framework.",
     "keywords": [
