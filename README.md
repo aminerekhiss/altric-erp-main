@@ -254,7 +254,3 @@ Pest, refer to the official documentation: [Pest Documentation](https://pestphp.
 
 ***Note*** : It is recommended to read the documentation for all dependencies to get yourself familiar with how the
 application works.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
