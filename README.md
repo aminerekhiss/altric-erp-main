@@ -1,7 +1,5 @@
 # ALTRIC
 
-<a href="https://trendshift.io/repositories/4749" target="_blank"><img src="https://trendshift.io/api/badge/repositories/4749" alt="andrewdwallo%2Faltric | Trendshift" style="width: 250px; height: 55px;" width="250" height="55"/></a>
-
 ![Screenshot 2025-06-05 at 16-26-36 Edit Invoice - ALTRIC](https://github.com/user-attachments/assets/583f83eb-dda5-4174-a0a9-47fc145b4ea3)
 ![Screenshot 2025-06-05 at 16-29-47 Connected Accounts - ALTRIC](https://github.com/user-attachments/assets/86ffabb2-bb8c-4657-b473-d5c7ecdeef8b)
 ![Screenshot 2025-06-05 at 16-33-00 Transactions - ALTRIC](https://github.com/user-attachments/assets/b20a8114-8c1c-4305-b673-23c9e2aff2a4)
@@ -16,17 +14,6 @@
 
 A Laravel and Filament-powered accounting platform featuring full double-entry accrual accounting, delivering modern automation for professional financial management.
 
-## Sponsorship
-
-While **ALTRIC** is open-source, maintaining it requires significant time and resources. Your sponsorship directly
-supports ongoing development, bug fixes, and improved documentation.
-
-As a solo developer, I can only provide limited free support. Sponsors receive priority assistance, input on feature
-priorities, and early access to updates. Even a small monthly contribution makes a significant difference in keeping
-this project actively maintained.
-
-**Become a sponsor:** [GitHub Sponsors](https://github.com/sponsors/andrewdwallo)
-
 # Getting started
 
 ## Installation
@@ -36,7 +23,7 @@ start. [Official Documentation](https://laravel.com/docs/11.x)
 
 Clone the repository
 
-    git clone https://github.com/andrewdwallo/altric.git
+    git clone https://github.com/aminerekhiss/altric-erp-main.git
 
 Switch to the repo folder
 
@@ -67,7 +54,7 @@ Build your assets & start the local development server
 
 **Command list**
 
-    git clone https://github.com/aminerekhiss/altric-erp-main
+    git clone https://github.com/aminerekhiss/altric-erp-main.git
     cd altric
     composer install
     npm install
